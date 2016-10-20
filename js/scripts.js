@@ -1,8 +1,9 @@
 var side1, side2, side3, equilateral, isosceles, scalene, notTriangle;
 
 var calculate = function(side1, side2, side3){
-  if (!side1 || !side2 || !side3){
-    alert('Please insert a number for all 3 sides (not 0)')
+  if (!side1 || !side2 || !side3 || side1 < 0 || side2 < 0 || side3 < 0){
+    alert('Please insert a real number for all 3 sides, greater than zero')
+    notTriangle()
   }
 
   else if (side1 === side2 && side1 === side3){
