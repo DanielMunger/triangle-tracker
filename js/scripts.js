@@ -49,9 +49,9 @@ $(document).ready(function(){
   }
 
   $("#submit").click(function() {
-    side1 = parseInt($("#side1").val());
-    side2 = parseInt($("#side2").val());
-    side3 = parseInt($("#side3").val());
+    side1 = parseFloat($("#side1").val());
+    side2 = parseFloat($("#side2").val());
+    side3 = parseFloat($("#side3").val());
     calculate(side1, side2, side3);
   });
 
