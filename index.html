@@ -9,6 +9,39 @@
     <title>triangle-tracker</title>
   </head>
   <body>
-
+    <div class="container">
+      <div class="well">
+        <h1>Traingle-Tracker</h1>
+        <h2>Your One-Stop-Shop for all your triangle needs!</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="side1">1st Side Length:</label>
+            <input id="side1" class="form-control" type="text">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="side2">2nd Side Length:</label>
+            <input id="side2" class="form-control" type="text">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="side3">3rd Side Length:</label>
+            <input id="side3" class="form-control" type="text">
+          </div>
+        </div>
+      </div>
+      <div class="well">
+        <h2>Your triangle is: <span id="result"></span></h2>
+        <img id="equilateral"
+        src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Equilateral-triangle.svg" alt="equilateral" />
+        <img id="isosceles" src="http://proofsfromthebook.com/wp-content/uploads/2013/05/isosceles-triangle.png" alt="isosceles" />
+        <img id="scalene" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Triangle.Scalene.svg/2000px-Triangle.Scalene.svg.png" alt="scalene" />
+        <img id="circle" src="http://spencermortensen.com/articles/bezier-circle/images/bezier-circle-big.jpg" alt="not a triangle" />
+      </div>
+    </div>
   </body>
 </html>
